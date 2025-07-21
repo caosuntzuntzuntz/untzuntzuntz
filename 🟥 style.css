@@ -1,0 +1,61 @@
+/* Reset + Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #f44336;
+  font-family: 'Courier New', monospace;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f44336;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+}
