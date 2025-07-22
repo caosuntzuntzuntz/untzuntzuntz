@@ -59,4 +59,7 @@ footer {
   font-size: 0.85rem;
   color: #555;
 }
+body {
+  background-color: lime !important;
+}
 
